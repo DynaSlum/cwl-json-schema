@@ -1,0 +1,47 @@
+{
+  "properties": {
+    "one": {
+      "$id": "one",
+      "type": "null"
+    },
+    "two": {
+      "$id": "two",
+      "type": "boolean"
+    },
+    "three": {
+      "$id": "three",
+      "type": "integer"
+    },
+    "four": {
+      "$id": "four",
+      "type": "number"
+    },
+    "five": {
+      "$id": "five",
+      "type": "number"
+    },
+    "six": {
+      "$id": "six",
+      "type": "number"
+    },
+    "seven": {
+      "$id": "seven",
+      "type": "string"
+    },
+    "eight": {
+      "$id": "eight",
+      "type": "object"
+    },
+    "nine": {
+      "$id": "nine",
+      "type": "object"
+    },
+    "ten": {
+      "$id": "ten",
+      "type": "number"
+    }
+  },
+  "required": ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"],
+  "title": "kitchensink",
+  "type": "object"
+}

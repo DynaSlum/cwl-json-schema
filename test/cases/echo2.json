@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "title": "echo2",
+  "properties": {
+    "birth_rate": {
+      "type": "object",
+      "required": [
+        "mean",
+        "median"
+      ],
+      "properties": {
+        "mean": {
+          "type": "number",
+          "$id": "mean"
+        },
+        "median": {
+          "type": "number",
+          "$id": "median"
+        }
+      },
+      "$id": "birth_rate"
+    },
+    "two": {
+      "type": "string",
+      "$id": "two"
+    }
+  },
+  "required": [
+    "birth_rate"
+  ]
+}

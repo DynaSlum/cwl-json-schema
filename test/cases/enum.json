@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "title": "enum",
+  "properties": {
+    "birth_rate": {
+      "type": "string",
+      "enum": ["one", "two", "three", "four"],
+      "$id": "birth_rate"
+    }
+  },
+  "required": [
+    "birth_rate"
+  ]
+}
