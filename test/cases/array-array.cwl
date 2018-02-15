@@ -6,6 +6,7 @@ inputs:
       type: array
       items:
         type: array
+        name: item1
         items:
           type: record
           fields:

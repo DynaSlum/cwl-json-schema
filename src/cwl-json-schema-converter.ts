@@ -10,7 +10,7 @@ import {
   CwlArrayDefinition,
   FieldDefinition
 } from './cwl.workflow'
-import * as yaml from 'js-yaml'
+import yaml from 'js-yaml'
 import { JSONSchema6 } from 'json-schema'
 
 /**
