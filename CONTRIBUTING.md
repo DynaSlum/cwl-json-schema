@@ -1,17 +1,12 @@
-We're really glad you're reading this, because we need volunteer developers to help this project come to fruition. 👏
+We're really glad you're reading this, because we need volunteer developers to help this project come to fruition.
 
-## Instructions
+Contributions are welcome!
+Please create a pull request, and make sure that:
 
-These steps will guide you through contributing to this project:
+1. the code follows the typescript style, check by fixing all errors and warning produced by the `yarn build` command
+2. we follow the [GitHub Flow](https://guides.github.com/introduction/flow/) branching model
+3. for other development and coding style conventions, see the [NLeSC Style Guide](https://nlesc.gitbooks.io/guide/content/)
+4. don't include extra dependencies without a good reason. Only use licenses compattible with the license of this project, a Apache v2.0
+5. please document your code, and provide unit tests
 
-- Fork the repo
-- Clone it and install dependencies
-
-		git clone https://github.com/YOUR-USERNAME/typescript-library-starter
-		npm install
-
-Keep in mind that after running `npm install` the git repo is reset. So a good way to cope with this is to have a copy of the folder to push the changes, and the other to try them.
-
-Make and commit your changes. Make sure the commands npm run build and npm run test:prod are working.
-
-Finally send a [GitHub Pull Request](https://github.com/alexjoverm/typescript-library-starter/compare?expand=1) with a clear list of what you've done (read more [about pull requests](https://help.github.com/articles/about-pull-requests/)). Make sure all of your commits are atomic (one feature per commit).
+at the minimum `yarn test:prod` should pass without errors.
